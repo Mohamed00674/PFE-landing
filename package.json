@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon api/app.js ",
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 8080",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

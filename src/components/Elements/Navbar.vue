@@ -27,12 +27,20 @@
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
+                    
                     <div class="nav-button ml-auto">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="https://localhost:8081/auth-pages/register">
+                                <a href="http://localhost:8081/auth/register">
                                 <button type="button"  class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">
                                     Register
+                                </button>
+                                </a>
+                            </li>
+                            <li>
+                                 <a href="http://localhost:8081/auth/login">
+                                <button type="button"  class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">
+                                    Login
                                 </button>
                                 </a>
                             </li>
@@ -41,7 +49,6 @@
                 </div>
             </div>
         </nav>
-         <!-- END NAVBAR -->
 </template>
 
 <script>
